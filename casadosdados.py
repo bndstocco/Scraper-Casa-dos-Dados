@@ -323,7 +323,7 @@ class Functions:
     async def main(self):
         # pages_count = get_page_count(json_filters)
         print('Iniciando busca de detalhes')
-        if self.list_cnpj_numbers == 0:
+        if not self.list_cnpj_numbers:
             print('Nenhuma empresa encontrada')
             return 
         global iter_step
