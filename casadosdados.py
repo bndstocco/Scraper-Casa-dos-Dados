@@ -16,7 +16,7 @@ import sys
 import time
 import tkinter
 from datetime import datetime
-from distutils.version import StrictVersion as Version
+from importlib.metadata import version as Version
 from threading import Thread
 from typing import Optional, Tuple, Union
 from urllib.error import HTTPError, URLError
